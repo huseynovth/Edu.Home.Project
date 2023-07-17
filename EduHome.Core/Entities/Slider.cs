@@ -8,5 +8,5 @@ public class Slider : IEntity
     public string Title { get; set; } = null!;
     public string SecondTitle { get; set; } = null!;
     public string Description { get; set; } = null!;
-    public string Image { get; set; } = null!;
+    public string ImagePath { get; set; } = null!;
 }

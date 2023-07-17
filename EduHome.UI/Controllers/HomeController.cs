@@ -19,7 +19,8 @@ namespace EduHome.UI.Controllers
         {
             HomeVM homevm = new()
             {
-                Sliders = await _context.Sliders.ToListAsync()
+                Sliders = await _context.Sliders.ToListAsync(),
+                NoticeBoards=await _context.NoticeBoards.ToListAsync(),
             };
             return View(homevm); 
         }
